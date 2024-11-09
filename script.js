@@ -87,7 +87,7 @@ for (let i = 0; i < indicatorNamed.length; i++) {
 
 function blindClick(i) {
   return function () {
-    console.log(i);
     currentIndex = i;
+    setEntity(currentIndex);
   };
 }
